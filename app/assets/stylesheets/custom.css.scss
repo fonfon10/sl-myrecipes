@@ -1,2 +1,55 @@
+$navbar-default-bg: #073815;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.center{
+	text-align: center;
+}
+
+.jumbotron{
+	background-image: asset-url('football.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+#logo {
+	float:left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+	}
+
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}	
+
+.jumbotron h1,h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.btn-xlarge {
+	background-color: #073815;
+}
+.btn-xlarge:hover {
+	background-color: #fff;
+	text-decoration: none;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #073815;
+  color: #fff;
+}

@@ -9,6 +9,17 @@
   </head>
 
   <body>
-    <%= yield %>
+  	<%= render 'layouts/navigation' %>
+  	<div class="container">
+	    <%= yield %>
+	  </div>
+
+	  <div id="footer">
+	    <div class="container">
+	      <p> Serge Lafontaine</p>
+	    </div>
+	  </div>
+
+
   </body>
 </html>

@@ -43,6 +43,7 @@ group :development, :test do
   gem 'minitest','~> 5.10.3'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem 'rails-controller-testing'
 
 end
 

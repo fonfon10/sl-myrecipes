@@ -11,7 +11,7 @@ class Chef < ApplicationRecord
 						uniqueness: { case_sensitive: false}
 
 
-	has_many :recipes
+	has_many :recipes, dependent: :destroy
 
 	has_secure_password
 
